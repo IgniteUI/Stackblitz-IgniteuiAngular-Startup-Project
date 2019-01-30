@@ -3,13 +3,10 @@ igx-icon {
   user-select: none;
 }
 
-.listContainer {
-  max-height: 60%;
-}
 .item-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: left;
+  align-items: flex-start;
 }
 
 .content-link {
@@ -26,28 +23,38 @@ a.content-link:visited {
   color: gray;
 }
 
-.component {
+.component-row {
   display: flex;
-  flex: 1 0 240px;
-  align-items: center;
-  color: gray
+  flex: 1 1 100%;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
-.component__info {
+.component-column {
   display: flex;
-  flex-flow: column nowrap;
-  margin-left: 24px;
+  flex: 1 1 50%;
+  min-width: 320px;
+  max-width: 420px;
+  padding: 0 16px;
+  flex-wrap: wrap;
+}
+
+.component-list {
+  width: 100%;
+}
+
+.component {
+  align-items: center;
+  padding-left: 20px;
+  color: gray;
+}
+
+.link-icon {
+  margin-left: auto
 }
 
 .componentName {
   font-weight: 600;
-}
-
-
-
-.tab-content {
-  padding: 16px;
-  min-width: 450px;
 }
 
 .item {

@@ -11,6 +11,11 @@
     overflow: auto
 }
 
+.tab-content {
+    padding: 16px;
+    min-width: 450px;
+}
+
 @include b(content) {
     @extend %content-display;
 
@@ -80,4 +85,7 @@
         color: gray;
         opacity: 0.38;
     }
+}
+.content-bottom-nav {
+    width: 100%;
 }
