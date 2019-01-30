@@ -1,0 +1,16 @@
+<igx-list >
+  <igx-list-item #item *ngFor="let component of components" isHeader="{{component.header}}">
+    <div *ngIf="component.header">{{ component.name }}</div>
+    <a *ngIf="!component.header" href="{{ rootUrl }}{{ component.href }}" target="_blank" class="content-link">
+      <div  class="item-container content__link-image" >
+        <div class="component">
+          <igx-icon>{{component.icon}}</igx-icon>  
+          <div class="component__info">
+              {{ component.name }}
+          </div>
+        </div>
+        <igx-icon>link</igx-icon>
+      </div>
+    </a>
+  </igx-list-item>
+</igx-list>

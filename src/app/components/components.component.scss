@@ -1,0 +1,72 @@
+igx-icon {
+  cursor: pointer;
+  user-select: none;
+}
+
+.listContainer {
+  max-height: 60%;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-link {
+  text-decoration: none;
+  text-decoration-color: grey;
+  text-decoration-line: none;
+}
+
+a.content-link:link {
+  color: lightslategray;
+}
+
+a.content-link:visited {
+  color: gray;
+}
+
+.component {
+  display: flex;
+  flex: 1 0 240px;
+  align-items: center;
+  color: gray
+}
+
+.component__info {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 24px;
+}
+
+.componentName {
+  font-weight: 600;
+}
+
+
+
+.tab-content {
+  padding: 16px;
+  min-width: 450px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item > [igxLabel],
+.item > .person {
+  position: absolute;
+  margin-left: 72px;
+  top:1px;
+  left: 16px;
+}
+
+.person .name {
+  padding: 0;
+  margin: 0;
+}
+
+
