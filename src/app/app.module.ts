@@ -10,12 +10,16 @@ import { IgxGridModule, IgxBottomNavModule, IgxAvatarModule, IgxIconModule, IgxR
 import { CommonModule } from '@angular/common';
 import { ComponentsComponent } from './components/components.component';
 import { FormsModule } from '@angular/forms';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    WelcomeComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

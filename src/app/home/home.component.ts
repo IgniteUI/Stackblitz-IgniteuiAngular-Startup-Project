@@ -15,9 +15,11 @@ export class HomeComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.route.params.subscribe(param => {
-      const navTab = this.bottomNav.tabs.find(tab => tab.relatedPanel.label.toLowerCase() === param.index.toLowerCase());
-      if (navTab) {
-        navTab.select();
+      if (param.index) {
+        const navTab = this.bottomNav.tabs.find(tab => tab.relatedPanel.label.toLowerCase() === param.index.toLowerCase());
+        if (navTab) {
+          navTab.select();
+        }
       }
     });
   }
