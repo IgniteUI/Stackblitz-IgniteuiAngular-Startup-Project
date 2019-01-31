@@ -13,6 +13,8 @@ $app-palette: igx-palette($primary, $secondary);
 html, body {
   height: 100%;
 }
-.content p {
-  margin: 15px;
-}
+
+@include igx-color-classes(
+    $prop: 'color',
+    $suffix: 'text'
+);

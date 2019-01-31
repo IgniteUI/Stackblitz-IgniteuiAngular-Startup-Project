@@ -1,26 +1,10 @@
-import { Component, AfterViewInit, ViewChild } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { IgxBottomNavComponent } from 'igniteui-angular';
+import { Component, AfterViewInit, ViewChild, TemplateRef, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements AfterViewInit {
-
-  @ViewChild(IgxBottomNavComponent) bottomNav: IgxBottomNavComponent;
-
-  constructor(private route: ActivatedRoute) {}
-
-  ngAfterViewInit(): void {
-    this.route.params.subscribe(param => {
-      if (param.index) {
-        const navTab = this.bottomNav.tabs.find(tab => tab.relatedPanel.label.toLowerCase() === param.index.toLowerCase());
-        if (navTab) {
-          navTab.select();
-        }
-      }
-    });
-  }
+export class HomeComponent {
 }

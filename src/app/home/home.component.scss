@@ -1,55 +1,15 @@
-@import '~igniteui-angular/lib/core/styles/themes/utilities';
-
-%content-display {
-    width: 100%;
+.content {
     display: flex;
     text-align: center;
     flex-flow: column nowrap;
     justify-content: stretch;
     align-items: center;
-    padding: 40px 24px 40px 24px;
-    overflow: auto
+    width: 100%;
+    height: calc(100% - 56px);
+    padding: 40px 24px 24px;
+    overflow: auto;
 }
 
-.tab-content {
-    padding: 16px;
-    min-width: 450px;
-}
-
-@include b(content) {
-    @extend %content-display;
-
-    p {
-        margin: 0px 0px 8px 0px;
-
-        &:nth-last-child(2) {
-            padding-top: 16px;
-        }
-    }
-
-    @include e(header) {
-        color: igx-color($default-palette, 'primary');
-    }
-
-    @include e(subject) {
-        margin-bottom: 16px;
-    }
-
-    @include e(container, $m: wide) {
-        display: flex;
-        flex-flow: row;
-        justify-content: center;
-    }
-
-   
-    
-    @include e(image) {
-        margin-bottom: 48px;
-        max-height: 480px;
-        max-width: 100%;
-    }
-
-}
-.content-bottom-nav {
+igx-bottom-nav {
     width: 100%;
 }
