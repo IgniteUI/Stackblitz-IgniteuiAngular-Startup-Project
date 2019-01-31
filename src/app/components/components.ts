@@ -43,7 +43,7 @@ export const Components = [
       {
         'name': 'Doughnut Chart',
         'href': 'doughnutchart.html',
-        'icon' : 'pie_chart'
+        'icon' : 'donut_large'
       },
       {
         'name': 'Pie Chart',
@@ -76,7 +76,7 @@ export const Components = [
       {
         'name': 'Radial Gauge',
         'href': 'radialgauge.html',
-        'icon': 'remove'
+        'icon': 'av_timer'
       },
       {
         'name': 'Menus',
@@ -85,7 +85,7 @@ export const Components = [
       {
         'name': 'Navigation Drawer',
         'href': 'navdrawer.html',
-        'icon': 'menu'
+        'icon': 'vertical_split'
       },
       {
         'name': 'Navbar',
@@ -179,7 +179,7 @@ export const Components = [
       {
         'name': 'Button',
         'href': 'button.html',
-        'icon': 'group_work',
+        'icon': 'crop_7_5',
       },
       {
         'name': 'Button Group',
@@ -244,7 +244,7 @@ export const Components = [
       {
         'name': 'Chip',
         'href': 'chip.html',
-        'icon': 'android'
+        'icon': 'edit_attributes'
       },
       {
         'name': 'Text Highlight',
@@ -258,17 +258,17 @@ export const Components = [
       {
         'name': 'Banner',
         'href': 'banner.html',
-        'icon': 'event_note'
+        'icon': 'view_stream'
       },
       {
         'name': 'Snackbar',
         'href': 'snackbar.html',
-        'icon': 'feedback'
+        'icon': 'report'
       },
       {
         'name': 'Toast',
         'href': 'toast.html',
-        'icon': 'android'
+        'icon': 'info'
       },
       {
         'name': 'Layouts',
@@ -287,7 +287,7 @@ export const Components = [
       {
         'name': 'Bottom Navigation',
         'href': 'tabbar.html',
-        'icon': 'tab'
+        'icon': 'call_to_action'
       },
       {
         'name': 'Tabs',
@@ -297,7 +297,7 @@ export const Components = [
       {
         'name': 'Card',
         'href': 'card.html',
-        'icon': 'home'
+        'icon': 'crop_original'
       },
       {
         'name': 'Avatar',

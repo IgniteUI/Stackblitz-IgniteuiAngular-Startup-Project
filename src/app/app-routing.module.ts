@@ -5,8 +5,12 @@ import { ComponentsComponent } from './components/components.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent, data: { text: 'Home' } },
-  { path: 'components', component: ComponentsComponent, data: { text: 'Components' } }
+  { path: 'home',
+    children: [
+      { path: '', component: HomeComponent },
+      { path: ':index', component: HomeComponent }
+    ]
+  },
 ];
 
 @NgModule({
