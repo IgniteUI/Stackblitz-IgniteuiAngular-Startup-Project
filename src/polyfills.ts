@@ -46,9 +46,10 @@ import 'core-js/es6/set';
 
 /** IE10 and IE11 requires the following for the Reflect API. */
  import 'core-js/es6/reflect';
+ import 'core-js/es7/reflect';
 
 /**
- *  ES7 `Object.entries` needed for igxGrid to render in IE. 
+ *  ES7 `Object.entries` needed for igxGrid to render in IE.
  * 	- https://github.com/IgniteUI/igniteui-cli/issues/344
 */
 import 'core-js/es7/object';
