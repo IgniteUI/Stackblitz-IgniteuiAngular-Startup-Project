@@ -8,12 +8,12 @@ export const Components = [
       },
       {
         'name': 'Data Grid',
-        'href': 'grid.html',
+        'href': 'grid/grid.html',
         'icon': 'view_column'
       },
       {
         'name': 'Tree Grid',
-        'href': 'treegrid.html',
+        'href': 'treegrid/tree_grid.html',
         'icon': 'view_column'
       },
       {
