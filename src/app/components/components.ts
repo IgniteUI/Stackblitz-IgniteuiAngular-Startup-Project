@@ -37,7 +37,7 @@ export const Components = [
       },
       {
         'name': 'Financial Chart',
-        'href': 'financialchart.html',
+        'href': 'financial-chart.html',
         'icon': 'show_chart'
       },
       {
