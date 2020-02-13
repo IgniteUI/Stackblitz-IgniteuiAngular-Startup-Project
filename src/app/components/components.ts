@@ -80,15 +80,6 @@ export const Components = [
         'icon': 'view_quilt'
       },
       {
-        'name': 'Frameworks',
-        'header': true
-      },
-      {
-        'name': 'Excel Library',
-        'href': 'excel_library.html',
-        'icon': 'table_chart'
-      },
-      {
         'name': 'Gauges',
         'header': true
       },
@@ -106,20 +97,6 @@ export const Components = [
         'name': 'Radial Gauge',
         'href': 'radialgauge.html',
         'icon': 'av_timer'
-      },
-      {
-        'name': 'Menus',
-        'header': true
-      },
-      {
-        'name': 'Navigation Drawer',
-        'href': 'navdrawer.html',
-        'icon': 'vertical_split'
-      },
-      {
-        'name': 'Navbar',
-        'href': 'navbar.html',
-        'icon': 'arrow_back'
       },
       {
         'name': 'Scheduling',
@@ -144,69 +121,6 @@ export const Components = [
         'name': 'Time Picker',
         'href': 'time_picker.html',
         'icon': 'date_range'
-      },
-      {
-        'name': 'Interactions',
-        'header': true
-      },
-      {
-        'name': 'Dialog Window',
-        'href': 'dialog.html',
-        'icon': 'all_out'
-      },
-      {
-        'name': 'Slider',
-        'href': 'slider.html',
-        'icon': 'linear_scale'
-      },
-      {
-        'name': 'Ripple',
-        'href': 'ripple.html',
-        'icon': 'wifi_tethering'
-      },
-      {
-        'name': 'Toggle',
-        'href': 'toggle.html',
-        'icon': 'toggle_off'
-      },
-      {
-        'name': 'Tooltip',
-        'href': 'tooltip.html',
-        'icon': 'info'
-      },
-      {
-        'name': 'Overlay',
-        'href': 'overlay_main.html',
-        'icon': 'flip_to_front'
-      },
-      {
-        'name': 'Drag and Drop',
-        'href': 'drag_drop.html',
-        'icon': 'view_column'
-      },
-      {
-        'name': 'Zoom Slider',
-        'href': 'zoomslider-overview.html',
-        'icon': 'settings_ethernet'
-      },
-      {
-        'name': 'Services',
-        'header': true
-      },
-      {
-        'name': 'CSV Exporter',
-        'href': 'exporter_csv.html',
-        'icon': 'import_export'
-      },
-      {
-        'name': 'Excel Exporter',
-        'href': 'exporter_excel.html',
-        'icon': 'import_export'
-      },
-      {
-        'name': 'Transaction Service',
-        'href': 'transaction.html',
-        'icon': 'widgets'
       }
     ]
   }, {
@@ -311,23 +225,49 @@ export const Components = [
         'icon': 'text_format'
       },
       {
-        'name': 'Notifications',
+        'name': 'Frameworks',
         'header': true
       },
       {
-        'name': 'Banner',
-        'href': 'banner.html',
-        'icon': 'view_stream'
+        'name': 'Excel Library',
+        'href': 'excel_library.html',
+        'icon': 'table_chart'
       },
       {
-        'name': 'Snackbar',
-        'href': 'snackbar.html',
-        'icon': 'report'
+        'name': 'Services',
+        'header': true
       },
       {
-        'name': 'Toast',
-        'href': 'toast.html',
-        'icon': 'info'
+        'name': 'CSV Exporter',
+        'href': 'exporter_csv.html',
+        'icon': 'import_export'
+      },
+      {
+        'name': 'Excel Exporter',
+        'href': 'exporter_excel.html',
+        'icon': 'import_export'
+      },
+      {
+        'name': 'Transaction Service',
+        'href': 'transaction.html',
+        'icon': 'widgets'
+      }
+    ]
+  }, {
+    group: [
+      {
+        'name': 'Menus',
+        'header': true
+      },
+      {
+        'name': 'Navigation Drawer',
+        'href': 'navdrawer.html',
+        'icon': 'vertical_split'
+      },
+      {
+        'name': 'Navbar',
+        'href': 'navbar.html',
+        'icon': 'arrow_back'
       },
       {
         'name': 'Layouts',
@@ -367,6 +307,69 @@ export const Components = [
         'name': 'Expansion Panel',
         'href': 'expansion_panel.html',
         'icon': 'expand_more'
+      },
+      {
+        'name': 'Interactions',
+        'header': true
+      },
+      {
+        'name': 'Dialog Window',
+        'href': 'dialog.html',
+        'icon': 'all_out'
+      },
+      {
+        'name': 'Slider',
+        'href': 'slider.html',
+        'icon': 'linear_scale'
+      },
+      {
+        'name': 'Ripple',
+        'href': 'ripple.html',
+        'icon': 'wifi_tethering'
+      },
+      {
+        'name': 'Toggle',
+        'href': 'toggle.html',
+        'icon': 'toggle_off'
+      },
+      {
+        'name': 'Tooltip',
+        'href': 'tooltip.html',
+        'icon': 'info'
+      },
+      {
+        'name': 'Overlay',
+        'href': 'overlay_main.html',
+        'icon': 'flip_to_front'
+      },
+      {
+        'name': 'Drag and Drop',
+        'href': 'drag_drop.html',
+        'icon': 'view_column'
+      },
+      {
+        'name': 'Zoom Slider',
+        'href': 'zoomslider-overview.html',
+        'icon': 'settings_ethernet'
+      },
+      {
+        'name': 'Notifications',
+        'header': true
+      },
+      {
+        'name': 'Banner',
+        'href': 'banner.html',
+        'icon': 'view_stream'
+      },
+      {
+        'name': 'Snackbar',
+        'href': 'snackbar.html',
+        'icon': 'report'
+      },
+      {
+        'name': 'Toast',
+        'href': 'toast.html',
+        'icon': 'info'
       }
     ]
   }
