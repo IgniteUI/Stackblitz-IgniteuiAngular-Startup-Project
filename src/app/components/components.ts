@@ -17,6 +17,11 @@ export const Components = [
         'icon': 'view_column'
       },
       {
+        'name': 'Hierarchical Grid',
+        'href': 'hierarchicalgrid/hierarchical_grid.html',
+        'icon': 'view_column'
+      },
+      {
         'name': 'List View',
         'href': 'list.html',
         'icon': 'list'
@@ -25,6 +30,11 @@ export const Components = [
         'name': 'Combo',
         'href': 'combo.html',
         'icon': 'arrow_drop_down_circle'
+      },
+      {
+        'name': 'Spreadsheet',
+        'href': 'spreadsheet_overview.html',
+        'icon': 'apps'
       },
       {
         'name': 'Charts',
@@ -38,7 +48,7 @@ export const Components = [
       {
         'name': 'Financial Chart',
         'href': 'financial-chart.html',
-        'icon': 'show_chart'
+        'icon': 'trending_up'
       },
       {
         'name': 'Doughnut Chart',
@@ -49,6 +59,25 @@ export const Components = [
         'name': 'Pie Chart',
         'href': 'piechart.html',
         'icon' : 'pie_chart'
+      },
+      {
+        'name': 'Sparkline',
+        'href': 'sparkline.html',
+        'icon' : 'show_chart'
+      },
+      {
+        'name': 'Maps',
+        'header': true
+      },
+      {
+        'name': 'Map',
+        'href': 'geo-map.html',
+        'icon': 'maps'
+      },
+      {
+        'name': 'Treemap',
+        'href': 'treemap-overview.html',
+        'icon': 'view_quilt'
       },
       {
         'name': 'Frameworks',
@@ -107,6 +136,11 @@ export const Components = [
         'href': 'date_picker.html'
       },
       {
+        'name': 'Month Picker',
+        'icon': 'date_range',
+        'href': 'month_picker.html'
+      },
+      {
         'name': 'Time Picker',
         'href': 'time_picker.html',
         'icon': 'date_range'
@@ -151,6 +185,11 @@ export const Components = [
         'icon': 'view_column'
       },
       {
+        'name': 'Zoom Slider',
+        'href': 'zoomslider-overview.html',
+        'icon': 'settings_ethernet'
+      },
+      {
         'name': 'Services',
         'header': true
       },
@@ -163,6 +202,11 @@ export const Components = [
         'name': 'Excel Exporter',
         'href': 'exporter_excel.html',
         'icon': 'import_export'
+      },
+      {
+        'name': 'Transaction Service',
+        'href': 'transaction.html',
+        'icon': 'widgets'
       }
     ]
   }, {
@@ -174,6 +218,16 @@ export const Components = [
       {
         'name': 'Drop Down',
         'href': 'drop_down.html',
+        'icon': 'view_list'
+      },
+      {
+        'name': 'Select',
+        'href': 'select.html',
+        'icon': 'view_list'
+      },
+      {
+        'name': 'Autocomplete',
+        'href': 'autocomplete.html',
         'icon': 'view_list'
       },
       {
@@ -225,6 +279,11 @@ export const Components = [
         'name': 'Icon',
         'href': 'icon.html',
         'icon': 'android'
+      },
+      {
+        'name': 'Divider',
+        'href': 'divider.html',
+        'icon': 'border_inner'
       },
       {
         'name': 'Linear Progress',
