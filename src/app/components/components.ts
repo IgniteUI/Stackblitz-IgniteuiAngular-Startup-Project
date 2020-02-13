@@ -17,6 +17,11 @@ export const Components = [
         'icon': 'view_column'
       },
       {
+        'name': 'Hierarchical Grid',
+        'href': 'hierarchicalgrid/hierarchical_grid.html',
+        'icon': 'view_column'
+      },
+      {
         'name': 'List View',
         'href': 'list.html',
         'icon': 'list'
@@ -25,6 +30,11 @@ export const Components = [
         'name': 'Combo',
         'href': 'combo.html',
         'icon': 'arrow_drop_down_circle'
+      },
+      {
+        'name': 'Spreadsheet',
+        'href': 'spreadsheet_overview.html',
+        'icon': 'apps'
       },
       {
         'name': 'Charts',
@@ -37,8 +47,8 @@ export const Components = [
       },
       {
         'name': 'Financial Chart',
-        'href': 'financialchart.html',
-        'icon': 'show_chart'
+        'href': 'financial-chart.html',
+        'icon': 'trending_up'
       },
       {
         'name': 'Doughnut Chart',
@@ -51,13 +61,23 @@ export const Components = [
         'icon' : 'pie_chart'
       },
       {
-        'name': 'Frameworks',
+        'name': 'Sparkline',
+        'href': 'sparkline.html',
+        'icon' : 'show_chart'
+      },
+      {
+        'name': 'Maps',
         'header': true
       },
       {
-        'name': 'Excel Library',
-        'href': 'excel_library.html',
-        'icon': 'table_chart'
+        'name': 'Map',
+        'href': 'geo-map.html',
+        'icon': 'maps'
+      },
+      {
+        'name': 'Treemap',
+        'href': 'treemap-overview.html',
+        'icon': 'view_quilt'
       },
       {
         'name': 'Gauges',
@@ -79,20 +99,6 @@ export const Components = [
         'icon': 'av_timer'
       },
       {
-        'name': 'Menus',
-        'header': true
-      },
-      {
-        'name': 'Navigation Drawer',
-        'href': 'navdrawer.html',
-        'icon': 'vertical_split'
-      },
-      {
-        'name': 'Navbar',
-        'href': 'navbar.html',
-        'icon': 'arrow_back'
-      },
-      {
         'name': 'Scheduling',
         'header': true
       },
@@ -107,62 +113,14 @@ export const Components = [
         'href': 'date_picker.html'
       },
       {
+        'name': 'Month Picker',
+        'icon': 'date_range',
+        'href': 'month_picker.html'
+      },
+      {
         'name': 'Time Picker',
         'href': 'time_picker.html',
         'icon': 'date_range'
-      },
-      {
-        'name': 'Interactions',
-        'header': true
-      },
-      {
-        'name': 'Dialog Window',
-        'href': 'dialog.html',
-        'icon': 'all_out'
-      },
-      {
-        'name': 'Slider',
-        'href': 'slider.html',
-        'icon': 'linear_scale'
-      },
-      {
-        'name': 'Ripple',
-        'href': 'ripple.html',
-        'icon': 'wifi_tethering'
-      },
-      {
-        'name': 'Toggle',
-        'href': 'toggle.html',
-        'icon': 'toggle_off'
-      },
-      {
-        'name': 'Tooltip',
-        'href': 'tooltip.html',
-        'icon': 'info'
-      },
-      {
-        'name': 'Overlay',
-        'href': 'overlay_main.html',
-        'icon': 'flip_to_front'
-      },
-      {
-        'name': 'Drag and Drop',
-        'href': 'drag_drop.html',
-        'icon': 'view_column'
-      },
-      {
-        'name': 'Services',
-        'header': true
-      },
-      {
-        'name': 'CSV Exporter',
-        'href': 'exporter_csv.html',
-        'icon': 'import_export'
-      },
-      {
-        'name': 'Excel Exporter',
-        'href': 'exporter_excel.html',
-        'icon': 'import_export'
       }
     ]
   }, {
@@ -174,6 +132,16 @@ export const Components = [
       {
         'name': 'Drop Down',
         'href': 'drop_down.html',
+        'icon': 'view_list'
+      },
+      {
+        'name': 'Select',
+        'href': 'select.html',
+        'icon': 'view_list'
+      },
+      {
+        'name': 'Autocomplete',
+        'href': 'autocomplete.html',
         'icon': 'view_list'
       },
       {
@@ -227,6 +195,11 @@ export const Components = [
         'icon': 'android'
       },
       {
+        'name': 'Divider',
+        'href': 'divider.html',
+        'icon': 'border_inner'
+      },
+      {
         'name': 'Linear Progress',
         'href': 'linear_progress.html',
         'icon': 'poll'
@@ -252,23 +225,49 @@ export const Components = [
         'icon': 'text_format'
       },
       {
-        'name': 'Notifications',
+        'name': 'Frameworks',
         'header': true
       },
       {
-        'name': 'Banner',
-        'href': 'banner.html',
-        'icon': 'view_stream'
+        'name': 'Excel Library',
+        'href': 'excel_library.html',
+        'icon': 'table_chart'
       },
       {
-        'name': 'Snackbar',
-        'href': 'snackbar.html',
-        'icon': 'report'
+        'name': 'Services',
+        'header': true
       },
       {
-        'name': 'Toast',
-        'href': 'toast.html',
-        'icon': 'info'
+        'name': 'CSV Exporter',
+        'href': 'exporter_csv.html',
+        'icon': 'import_export'
+      },
+      {
+        'name': 'Excel Exporter',
+        'href': 'exporter_excel.html',
+        'icon': 'import_export'
+      },
+      {
+        'name': 'Transaction Service',
+        'href': 'transaction.html',
+        'icon': 'widgets'
+      }
+    ]
+  }, {
+    group: [
+      {
+        'name': 'Menus',
+        'header': true
+      },
+      {
+        'name': 'Navigation Drawer',
+        'href': 'navdrawer.html',
+        'icon': 'vertical_split'
+      },
+      {
+        'name': 'Navbar',
+        'href': 'navbar.html',
+        'icon': 'arrow_back'
       },
       {
         'name': 'Layouts',
@@ -308,6 +307,69 @@ export const Components = [
         'name': 'Expansion Panel',
         'href': 'expansion_panel.html',
         'icon': 'expand_more'
+      },
+      {
+        'name': 'Interactions',
+        'header': true
+      },
+      {
+        'name': 'Dialog Window',
+        'href': 'dialog.html',
+        'icon': 'all_out'
+      },
+      {
+        'name': 'Slider',
+        'href': 'slider.html',
+        'icon': 'linear_scale'
+      },
+      {
+        'name': 'Ripple',
+        'href': 'ripple.html',
+        'icon': 'wifi_tethering'
+      },
+      {
+        'name': 'Toggle',
+        'href': 'toggle.html',
+        'icon': 'toggle_off'
+      },
+      {
+        'name': 'Tooltip',
+        'href': 'tooltip.html',
+        'icon': 'info'
+      },
+      {
+        'name': 'Overlay',
+        'href': 'overlay_main.html',
+        'icon': 'flip_to_front'
+      },
+      {
+        'name': 'Drag and Drop',
+        'href': 'drag_drop.html',
+        'icon': 'view_column'
+      },
+      {
+        'name': 'Zoom Slider',
+        'href': 'zoomslider-overview.html',
+        'icon': 'settings_ethernet'
+      },
+      {
+        'name': 'Notifications',
+        'header': true
+      },
+      {
+        'name': 'Banner',
+        'href': 'banner.html',
+        'icon': 'view_stream'
+      },
+      {
+        'name': 'Snackbar',
+        'href': 'snackbar.html',
+        'icon': 'report'
+      },
+      {
+        'name': 'Toast',
+        'href': 'toast.html',
+        'icon': 'info'
       }
     ]
   }
