@@ -16,7 +16,7 @@ export class GlobalErrorHandlerService implements ErrorHandler {
     if (!this.isInErrorState) {
       this.isInErrorState = true;
       if (isDevMode()) {
-        throw error;
+        console.error(error);
       } else {
       this.zone.run(() => {
          this.router.navigate(['error']);
