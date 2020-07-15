@@ -108,6 +108,11 @@ export const Components = [
         'icon': 'event'
       },
       {
+        'name': 'Date Time Editor',
+        'icon': 'access_time',
+        'href': 'date_time_editor.html'
+      },
+      {
         'name': 'Date Picker',
         'icon': 'date_range',
         'href': 'date_picker.html'
@@ -121,6 +126,11 @@ export const Components = [
         'name': 'Time Picker',
         'href': 'time_picker.html',
         'icon': 'date_range'
+      },
+      {
+        'name': 'Date Range Picker',
+        'icon': 'date_range',
+        'href': 'date_range_picker.html'
       }
     ]
   }, {
@@ -309,6 +319,16 @@ export const Components = [
         'icon': 'expand_more'
       },
       {
+        'name': 'Splitter',
+        'href': 'splitter.html',
+        'icon': 'settings_ethernet'
+      },
+      {
+        'name': 'Dock Manager',
+        'href': 'dock-manager.html',
+        'icon': 'view_quilt'
+      },
+      {
         'name': 'Interactions',
         'header': true
       },
@@ -351,6 +371,11 @@ export const Components = [
         'name': 'Zoom Slider',
         'href': 'zoomslider-overview.html',
         'icon': 'settings_ethernet'
+      },
+      {
+        'name': 'Action Strip',
+        'href': 'action-strip.html',
+        'icon': 'build_circle'
       },
       {
         'name': 'Notifications',
