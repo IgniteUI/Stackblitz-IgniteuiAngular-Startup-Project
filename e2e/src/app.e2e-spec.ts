@@ -9,11 +9,11 @@ describe('Empty_new App', () => {
 
   it('should display project name in navigation', () => {
     page.navigateTo();
-    expect(page.getNavText()).toEqual('Empty_new');
+    expect(page.getNavText()).toEqual('Ignite UI for Angular');
   });
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getWelcomeText()).toEqual('Welcome to Ignite UI for Angular!');
+    expect(page.getWelcomeText()).toEqual('Ignite UI for Angular');
   });
 });
