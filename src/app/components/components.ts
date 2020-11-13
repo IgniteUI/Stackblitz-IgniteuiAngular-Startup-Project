@@ -3,37 +3,37 @@ export const Components = [
     group: [
       {
         'name': 'Grids & Lists',
-        'href': 'grids_and_lists.html',
+        'href': 'grids-and-lists',
         'header': true
       },
       {
         'name': 'Data Grid',
-        'href': 'grid/grid.html',
+        'href': 'grid/grid',
         'icon': 'view_column'
       },
       {
         'name': 'Tree Grid',
-        'href': 'treegrid/tree_grid.html',
+        'href': 'treegrid/tree-grid',
         'icon': 'view_column'
       },
       {
         'name': 'Hierarchical Grid',
-        'href': 'hierarchicalgrid/hierarchical_grid.html',
+        'href': 'hierarchicalgrid/hierarchical-grid',
         'icon': 'view_column'
       },
       {
         'name': 'List View',
-        'href': 'list.html',
+        'href': 'list',
         'icon': 'list'
       },
       {
         'name': 'Combo',
-        'href': 'combo.html',
+        'href': 'combo',
         'icon': 'arrow_drop_down_circle'
       },
       {
         'name': 'Spreadsheet',
-        'href': 'spreadsheet_overview.html',
+        'href': 'spreadsheet-overview',
         'icon': 'apps'
       },
       {
@@ -42,27 +42,27 @@ export const Components = [
       },
       {
         'name': 'Category Chart',
-        'href': 'categorychart.html',
+        'href': 'category-chart',
         'icon': 'bar_chart'
       },
       {
         'name': 'Financial Chart',
-        'href': 'financial-chart.html',
+        'href': 'financial-chart',
         'icon': 'trending_up'
       },
       {
         'name': 'Doughnut Chart',
-        'href': 'doughnutchart.html',
+        'href': 'doughnut-chart',
         'icon' : 'donut_large'
       },
       {
         'name': 'Pie Chart',
-        'href': 'piechart.html',
+        'href': 'pie-chart',
         'icon' : 'pie_chart'
       },
       {
         'name': 'Sparkline',
-        'href': 'sparkline.html',
+        'href': 'sparkline',
         'icon' : 'show_chart'
       },
       {
@@ -71,12 +71,12 @@ export const Components = [
       },
       {
         'name': 'Map',
-        'href': 'geo-map.html',
+        'href': 'geo-map',
         'icon': 'maps'
       },
       {
         'name': 'Treemap',
-        'href': 'treemap-overview.html',
+        'href': 'treemap-overview',
         'icon': 'view_quilt'
       },
       {
@@ -85,17 +85,17 @@ export const Components = [
       },
       {
         'name': 'Bullet Graph',
-        'href': 'bulletgraph.html',
+        'href': 'bullet-graph',
         'icon': 'remove'
       },
       {
         'name': 'Linear Gauge',
-        'href': 'lineargauge.html',
+        'href': 'linear-gauge',
         'icon': 'remove'
       },
       {
         'name': 'Radial Gauge',
-        'href': 'radialgauge.html',
+        'href': 'radial-gauge',
         'icon': 'av_timer'
       },
       {
@@ -104,33 +104,33 @@ export const Components = [
       },
       {
         'name': 'Calendar',
-        'href': 'calendar.html',
+        'href': 'calendar',
         'icon': 'event'
       },
       {
         'name': 'Date Time Editor',
         'icon': 'access_time',
-        'href': 'date_time_editor.html'
+        'href': 'date-time-editor'
       },
       {
         'name': 'Date Picker',
         'icon': 'date_range',
-        'href': 'date_picker.html'
+        'href': 'date-picker'
       },
       {
         'name': 'Month Picker',
         'icon': 'date_range',
-        'href': 'month_picker.html'
+        'href': 'month-picker'
       },
       {
         'name': 'Time Picker',
-        'href': 'time_picker.html',
+        'href': 'time-picker',
         'icon': 'date_range'
       },
       {
         'name': 'Date Range Picker',
         'icon': 'date_range',
-        'href': 'date_range_picker.html'
+        'href': 'date-range-picker'
       }
     ]
   }, {
@@ -141,97 +141,97 @@ export const Components = [
       },
       {
         'name': 'Drop Down',
-        'href': 'drop_down.html',
+        'href': 'drop-down',
         'icon': 'view_list'
       },
       {
         'name': 'Select',
-        'href': 'select.html',
+        'href': 'select',
         'icon': 'view_list'
       },
       {
         'name': 'Autocomplete',
-        'href': 'autocomplete.html',
+        'href': 'autocomplete',
         'icon': 'view_list'
       },
       {
         'name': 'Button',
-        'href': 'button.html',
+        'href': 'button',
         'icon': 'crop_7_5',
       },
       {
         'name': 'Button Group',
-        'href': 'buttonGroup.html',
+        'href': 'buttonGroup',
         'icon': 'group_work'
       },
       {
         'name': 'Checkbox',
-        'href': 'checkbox.html',
+        'href': 'checkbox',
         'icon': 'check_box'
       },
       {
         'name': 'Switch',
-        'href': 'switch.html',
+        'href': 'switch',
         'icon': 'toggle_on'
       },
       {
         'name': 'Radio & Radio Group',
-        'href': 'radio_button.html',
+        'href': 'radio-button',
         'icon': 'radio_button_checked'
       },
       {
         'name': 'Label & Input',
-        'href': 'label_input.html',
+        'href': 'label-input',
         'icon': 'input'
       },
       {
         'name': 'Input Group',
-        'href': 'input_group.html',
+        'href': 'input-group',
         'icon': 'web'
       },
       {
         'name': 'Mask',
-        'href': 'mask.html',
+        'href': 'mask',
         'icon': 'view_column'
       },
       {
         'name': 'Badge',
-        'href': 'badge.html',
+        'href': 'badge',
         'icon': 'error'
       },
       {
         'name': 'Icon',
-        'href': 'icon.html',
+        'href': 'icon',
         'icon': 'android'
       },
       {
         'name': 'Divider',
-        'href': 'divider.html',
+        'href': 'divider',
         'icon': 'border_inner'
       },
       {
         'name': 'Linear Progress',
-        'href': 'linear_progress.html',
+        'href': 'linear-progress',
         'icon': 'poll'
       },
       {
         'name': 'Circular Progress',
-        'href': 'circular_progress.html',
+        'href': 'circular-progress',
         'icon': 'poll'
       },
       {
         'name': 'Virtual For Directive',
-        'href': 'for_of.html',
+        'href': 'for-of',
         'icon': 'view_column'
       },
       {
         'name': 'Chip',
-        'href': 'chip.html',
+        'href': 'chip',
         'icon': 'edit_attributes'
       },
       {
         'name': 'Text Highlight',
-        'href': 'texthighlight.html',
+        'href': 'texthighlight',
         'icon': 'text_format'
       },
       {
@@ -240,7 +240,7 @@ export const Components = [
       },
       {
         'name': 'Excel Library',
-        'href': 'excel_library.html',
+        'href': 'excel-library',
         'icon': 'table_chart'
       },
       {
@@ -249,17 +249,17 @@ export const Components = [
       },
       {
         'name': 'CSV Exporter',
-        'href': 'exporter_csv.html',
+        'href': 'exporter-csv',
         'icon': 'import_export'
       },
       {
         'name': 'Excel Exporter',
-        'href': 'exporter_excel.html',
+        'href': 'exporter-excel',
         'icon': 'import_export'
       },
       {
         'name': 'Transaction Service',
-        'href': 'transaction.html',
+        'href': 'transaction',
         'icon': 'widgets'
       }
     ]
@@ -271,12 +271,12 @@ export const Components = [
       },
       {
         'name': 'Navigation Drawer',
-        'href': 'navdrawer.html',
+        'href': 'navdrawer',
         'icon': 'vertical_split'
       },
       {
         'name': 'Navbar',
-        'href': 'navbar.html',
+        'href': 'navbar',
         'icon': 'arrow_back'
       },
       {
@@ -285,47 +285,47 @@ export const Components = [
       },
       {
         'name': 'Layout Manager',
-        'href': 'layout.html',
+        'href': 'layout',
         'icon': 'view_quilt'
       },
       {
         'name': 'Carousel',
-        'href': 'carousel.html',
+        'href': 'carousel',
         'icon': 'view_carousel'
       },
       {
         'name': 'Bottom Navigation',
-        'href': 'tabbar.html',
+        'href': 'tabbar',
         'icon': 'call_to_action'
       },
       {
         'name': 'Tabs',
-        'href': 'tabs.html',
+        'href': 'tabs',
         'icon': 'tab'
       },
       {
         'name': 'Card',
-        'href': 'card.html',
+        'href': 'card',
         'icon': 'crop_original'
       },
       {
         'name': 'Avatar',
-        'href': 'avatar.html',
+        'href': 'avatar',
         'icon': 'account_circle'
       },
       {
         'name': 'Expansion Panel',
-        'href': 'expansion_panel.html',
+        'href': 'expansion-panel',
         'icon': 'expand_more'
       },
       {
         'name': 'Splitter',
-        'href': 'splitter.html',
+        'href': 'splitter',
         'icon': 'settings_ethernet'
       },
       {
         'name': 'Dock Manager',
-        'href': 'dock-manager.html',
+        'href': 'dock-manager',
         'icon': 'view_quilt'
       },
       {
@@ -334,47 +334,47 @@ export const Components = [
       },
       {
         'name': 'Dialog Window',
-        'href': 'dialog.html',
+        'href': 'dialog',
         'icon': 'all_out'
       },
       {
         'name': 'Slider',
-        'href': 'slider.html',
+        'href': 'slider/slider',
         'icon': 'linear_scale'
       },
       {
         'name': 'Ripple',
-        'href': 'ripple.html',
+        'href': 'ripple',
         'icon': 'wifi_tethering'
       },
       {
         'name': 'Toggle',
-        'href': 'toggle.html',
+        'href': 'toggle',
         'icon': 'toggle_off'
       },
       {
         'name': 'Tooltip',
-        'href': 'tooltip.html',
+        'href': 'tooltip',
         'icon': 'info'
       },
       {
         'name': 'Overlay',
-        'href': 'overlay_main.html',
+        'href': 'overlay-main',
         'icon': 'flip_to_front'
       },
       {
         'name': 'Drag and Drop',
-        'href': 'drag_drop.html',
+        'href': 'drag-drop',
         'icon': 'view_column'
       },
       {
         'name': 'Zoom Slider',
-        'href': 'zoomslider-overview.html',
+        'href': 'zoomslider-overview',
         'icon': 'settings_ethernet'
       },
       {
         'name': 'Action Strip',
-        'href': 'action-strip.html',
+        'href': 'action-strip',
         'icon': 'build_circle'
       },
       {
@@ -383,17 +383,17 @@ export const Components = [
       },
       {
         'name': 'Banner',
-        'href': 'banner.html',
+        'href': 'banner',
         'icon': 'view_stream'
       },
       {
         'name': 'Snackbar',
-        'href': 'snackbar.html',
+        'href': 'snackbar',
         'icon': 'report'
       },
       {
         'name': 'Toast',
-        'href': 'toast.html',
+        'href': 'toast',
         'icon': 'info'
       }
     ]
