@@ -161,7 +161,7 @@ export const Components = [
       },
       {
         'name': 'Button Group',
-        'href': 'buttonGroup',
+        'href': 'button-group',
         'icon': 'group_work'
       },
       {
@@ -359,7 +359,7 @@ export const Components = [
       },
       {
         'name': 'Overlay',
-        'href': 'overlay-main',
+        'href': 'overlay',
         'icon': 'flip_to_front'
       },
       {
