@@ -161,7 +161,7 @@ export const Components = [
       },
       {
         'name': 'Button Group',
-        'href': 'buttonGroup',
+        'href': 'butto-group',
         'icon': 'group_work'
       },
       {
