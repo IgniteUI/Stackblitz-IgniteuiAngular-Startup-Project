@@ -1,8 +1,8 @@
 <div class="content">
     <router-outlet></router-outlet>
     <igx-bottom-nav>
-        <igx-tab *ngFor="let route of routes" [label]="route.data.text" [icon]="route.data.icon" [routerLink]="route.path" routerLinkActive #rla="routerLinkActive"
-            [isSelected]="rla.isActive">
-        </igx-tab>
+        <igx-bottom-nav-item *ngFor="let route of routes" routerLinkActive #rla="routerLinkActive"
+            [selected]="rla.isActive">
+        </igx-bottom-nav-item>
     </igx-bottom-nav>
 </div>
