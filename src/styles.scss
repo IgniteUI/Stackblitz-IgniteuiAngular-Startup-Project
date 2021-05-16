@@ -8,6 +8,12 @@ $secondary: #e41c77 !default;
 $app-palette: igx-palette($primary, $secondary);
 
 @include igx-core();
+
+@include igx-typography(
+  $font-family: $material-typeface,
+  $type-scale: $material-type-scale
+);
+
 @include igx-theme($app-palette);
 
 html, body {
