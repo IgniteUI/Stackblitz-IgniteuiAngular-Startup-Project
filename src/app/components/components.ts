@@ -22,6 +22,11 @@ export const Components = [
         'icon': 'view_column'
       },
       {
+        'name': 'Tree',
+        'href': 'tree',
+        'icon': 'view_column'
+      },
+      {
         'name': 'List View',
         'href': 'list',
         'icon': 'list'
